@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+package-lock.json
+
+# Logs
+*.log
+
+# Rider/other IDEs (optional)
+.idea/
+*.iml
