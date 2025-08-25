@@ -10,6 +10,10 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello anand"); 
+            Console.WriteLine();
+            Integers integers = new Integers();
+            integers.integerDemo();
         }
     }
 }
