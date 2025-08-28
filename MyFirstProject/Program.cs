@@ -27,6 +27,12 @@ namespace MyFirstProject
 
             conditionalStatements.ConditionChecking();
 
+            // Create an instance of SwitchStatement to demonstrate switch-case statements
+            Console.WriteLine("\nDemonstrating Switch Statement:");
+            
+            SwitchStatement switchStatement = new SwitchStatement();
+            switchStatement.SwitchStatementcheck();
+
             Console.ReadLine();
         }
     }
