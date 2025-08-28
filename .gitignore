@@ -22,3 +22,15 @@ package-lock.json
 # Rider/other IDEs (optional)
 .idea/
 *.iml
+
+# Ignore Word temp files
+~$*.docx
+~WRL*.tmp
+
+# Ignore Visual Studio build files
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
