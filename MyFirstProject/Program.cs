@@ -11,6 +11,7 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello anand"); 
             Console.WriteLine();
             Integers integers = new Integers();
@@ -32,6 +33,13 @@ namespace MyFirstProject
             
             SwitchStatement switchStatement = new SwitchStatement();
             switchStatement.SwitchStatementcheck();
+
+            // Create an instance of TernaryOperator to demonstrate the ternary operator
+
+            Console.WriteLine("\nDemonstrating Ternary Operator:");
+            TernaryOperator ternaryOperator = new TernaryOperator();
+            ternaryOperator.TernaryOperatorExample();
+
 
             Console.ReadLine();
         }
