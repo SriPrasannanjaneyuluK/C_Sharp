@@ -11,34 +11,51 @@ namespace MyFirstProject
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Hello anand"); 
-            Console.WriteLine();
-            Integers integers = new Integers();
 
-            // Call the integerDemo method to demonstrate integer operations
-            Console.WriteLine("Demonstrating Integer Operations:");
-            integers.integerDemo();
+            //Console.WriteLine("Hello anand"); 
+            //Console.WriteLine();
+            //Integers integers = new Integers();
 
-            // Create an instance of ConditionalStatements to demonstrate conditional statements
-            Console.WriteLine("\nDemonstrating Conditional Statements:");
-            ConditionalStatements conditionalStatements = new ConditionalStatements();
+            //// Call the integerDemo method to demonstrate integer operations
+            //Console.WriteLine("Demonstrating Integer Operations:");
+            //integers.integerDemo();
 
-            // The constructor of ConditionalStatements contains the demonstration code
+            //// Create an instance of ConditionalStatements to demonstrate conditional statements
+            //Console.WriteLine("\nDemonstrating Conditional Statements:");
+            //ConditionalStatements conditionalStatements = new ConditionalStatements();
 
-            conditionalStatements.ConditionChecking();
+            //// The constructor of ConditionalStatements contains the demonstration code
 
-            // Create an instance of SwitchStatement to demonstrate switch-case statements
-            Console.WriteLine("\nDemonstrating Switch Statement:");
-            
-            SwitchStatement switchStatement = new SwitchStatement();
-            switchStatement.SwitchStatementcheck();
+            //conditionalStatements.ConditionChecking();
 
-            // Create an instance of TernaryOperator to demonstrate the ternary operator
+            //// Create an instance of SwitchStatement to demonstrate switch-case statements
+            //Console.WriteLine("\nDemonstrating Switch Statement:");
 
-            Console.WriteLine("\nDemonstrating Ternary Operator:");
-            TernaryOperator ternaryOperator = new TernaryOperator();
-            ternaryOperator.TernaryOperatorExample();
+            //SwitchStatement switchStatement = new SwitchStatement();
+            //switchStatement.SwitchStatementcheck();
+
+            //// Create an instance of TernaryOperator to demonstrate the ternary operator
+
+            //Console.WriteLine("\nDemonstrating Ternary Operator:");
+            //TernaryOperator ternaryOperator = new TernaryOperator();
+            //ternaryOperator.TernaryOperatorExample();
+
+
+            //// Create an instance of EvenIOdd to demonstrate even and odd number checking
+            //Console.WriteLine("\nDemonstrating Even and Odd Number Checking:");
+            //EvenIOdd evenIOdd = new EvenIOdd();
+            //evenIOdd.EvenOddExample();
+
+            //// Ceate an instance of Calculator to demonstrate calculator operations
+            //Console.WriteLine("\nDemonstrating Calculator Operations:");
+            //Calculator calculator = new Calculator();
+            //calculator.CalculatorDemo();
+
+            // Create an instance of MultiplicationTable to demonstrate multiplication table generation
+            Console.WriteLine("\nDemonstrating Multiplication Table Generation:");
+            MultiplicationTable multiplicationTable = new MultiplicationTable();
+            multiplicationTable.MultiplicationTableDemo();
+
 
 
             Console.ReadLine();

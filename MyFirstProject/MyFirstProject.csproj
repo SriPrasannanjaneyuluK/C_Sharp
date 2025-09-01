@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs" />
     <Compile Include="ConditionalStatements.cs" />
+    <Compile Include="EvenIOdd.cs" />
     <Compile Include="Integers.cs" />
+    <Compile Include="MultiplicationTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SwitchStatement.cs" />
