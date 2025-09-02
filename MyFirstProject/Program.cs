@@ -51,12 +51,22 @@ namespace MyFirstProject
             //Calculator calculator = new Calculator();
             //calculator.CalculatorDemo();
 
-            // Create an instance of MultiplicationTable to demonstrate multiplication table generation
-            Console.WriteLine("\nDemonstrating Multiplication Table Generation:");
-            MultiplicationTable multiplicationTable = new MultiplicationTable();
-            multiplicationTable.MultiplicationTableDemo();
+            //// Create an instance of MultiplicationTable to demonstrate multiplication table generation
+            //Console.WriteLine("\nDemonstrating Multiplication Table Generation:");
+            //MultiplicationTable multiplicationTable = new MultiplicationTable();
+            //multiplicationTable.MultiplicationTableDemo();
 
+            ////Create an instance of Problem101 to demonstrate solution to factorial problem
 
+            //Console.WriteLine("\nDemonstrating Factorial Calculation:");
+            //Problem101 problem101 = new Problem101();
+            //problem101.Problem101Demo();
+
+            // Create an instance of VerbatimStringLiteral to demonstrate verbatim string literals
+
+            Console.WriteLine("\nDemonstrating Verbatim String Literals:");
+            VerbatimStringLiteral verbatimStringLiteral = new VerbatimStringLiteral();
+            verbatimStringLiteral.VerbatimStringLiteralDemo();
 
             Console.ReadLine();
         }
