@@ -46,7 +46,7 @@ namespace MyFirstProject
             //EvenIOdd evenIOdd = new EvenIOdd();
             //evenIOdd.EvenOddExample();
 
-            //// Ceate an instance of Calculator to demonstrate calculator operations
+            //// Create an instance of Calculator to demonstrate calculator operations
             //Console.WriteLine("\nDemonstrating Calculator Operations:");
             //Calculator calculator = new Calculator();
             //calculator.CalculatorDemo();
@@ -62,11 +62,38 @@ namespace MyFirstProject
             //Problem101 problem101 = new Problem101();
             //problem101.Problem101Demo();
 
-            // Create an instance of VerbatimStringLiteral to demonstrate verbatim string literals
+            //// Create an instance of VerbatimStringLiteral to demonstrate verbatim string literals
 
-            Console.WriteLine("\nDemonstrating Verbatim String Literals:");
-            VerbatimStringLiteral verbatimStringLiteral = new VerbatimStringLiteral();
-            verbatimStringLiteral.VerbatimStringLiteralDemo();
+            //Console.WriteLine("\nDemonstrating Verbatim String Literals:");
+            //VerbatimStringLiteral verbatimStringLiteral = new VerbatimStringLiteral();
+            //verbatimStringLiteral.VerbatimStringLiteralDemo();
+
+            ////Create an instance of StringFormatting to demonstrate string formatting techniques
+            //Console.WriteLine("Demonstrating the string formatting");
+
+            //StringFormatting stringFormatting = new StringFormatting();
+            //stringFormatting.StringFormattingDemo();
+
+            //// Create an instance of EmptyString to demonstrate empty string handling
+
+            //Console.WriteLine("Demonstrating empty string handling");
+            //EmptyString emptyString = new EmptyString();
+            //emptyString.EmptyStringDemo();
+
+            //// Create an instance of StringMethods to demonstrate various string methods
+            //Console.WriteLine("Demonstrating various string methods");
+            //StringIteration stringMethods = new StringIteration();
+            //stringMethods.StringIterationDemo();
+
+            //// Create an instance of PasswordValidator to demonstrate password validation
+            //Console.WriteLine("Demonstrating password validation");
+            //PasswordCheck passwordCheck = new PasswordCheck();
+            //passwordCheck.PasswordCheckDemo();
+
+            // Create an instance of ArrayConcept to demonstrate array operations
+            Console.WriteLine("Demonstrating array operations");
+            ArrayConcept arrayConcept = new ArrayConcept();
+            arrayConcept.ArrayConceptDemo();
 
             Console.ReadLine();
         }
