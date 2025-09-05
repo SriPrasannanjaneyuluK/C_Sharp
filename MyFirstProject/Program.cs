@@ -90,10 +90,15 @@ namespace MyFirstProject
             //PasswordCheck passwordCheck = new PasswordCheck();
             //passwordCheck.PasswordCheckDemo();
 
-            // Create an instance of ArrayConcept to demonstrate array operations
-            Console.WriteLine("Demonstrating array operations");
-            ArrayConcept arrayConcept = new ArrayConcept();
-            arrayConcept.ArrayConceptDemo();
+            //// Create an instance of ArrayConcept to demonstrate array operations
+            //Console.WriteLine("Demonstrating array operations");
+            //ArrayConcept arrayConcept = new ArrayConcept();
+            //arrayConcept.ArrayConceptDemo();
+
+            // Create an instance of ArrayFunctions to demonstrate array functions
+            ArrayFunctions arrayFunctions = new ArrayFunctions();
+
+            arrayFunctions.ArrayFunctionsDemo();
 
             Console.ReadLine();
         }

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayConcept.cs" />
+    <Compile Include="ArrayFunctions.cs" />
     <Compile Include="Calculator.cs" />
     <Compile Include="ConditionalStatements.cs" />
     <Compile Include="EmptyString.cs" />
